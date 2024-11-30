@@ -4,11 +4,6 @@ import sda.args._
 import sda.parser.ConfigurationParser
 import sda.traitement.ServiceVente._
 
-//  Erreur d'importation du fichier XML car il faudrait utiliser une dépendance d'une librairie...
-//  Exception in thread "main" java.lang.ClassNotFoundException:
-//  Failed to find data source: xml. Please find packages at
-//  https://spark.apache.org/third-party-projects.html
-
 object MainBatch {
   def main(args: Array[String]): Unit = {
     implicit val spark: SparkSession = SparkSession
